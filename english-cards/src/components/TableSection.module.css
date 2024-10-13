@@ -1,0 +1,27 @@
+@import 'variables';
+
+.table_container {
+  margin-top: 10vh;
+  width: 100%;  
+  font-family: var(--main-font);
+  font-weight: 300;
+}
+
+.table_head {
+  width: 100%;
+  font-family: var(--extra-font);
+  font-size: 24px;
+}
+
+.table_head th,
+.table_head td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid var(--main-color);
+}
+
+.table_head th {
+  background-color: var(--main-color);
+  color: var(--secondary-color);
+}
+

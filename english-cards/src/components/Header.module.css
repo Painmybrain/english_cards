@@ -1,0 +1,7 @@
+@import "variables";
+
+.title {
+  color: var(--main-color);
+  font-family: "Londrina Sketch", sans-serif;
+  font-size: 57px;
+}

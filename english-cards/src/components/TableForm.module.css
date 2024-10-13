@@ -1,0 +1,17 @@
+@import "variables";
+
+
+
+
+.form_container input {
+  padding: 10px;
+  height: 15px;
+  width: 90%;
+  text-align: center;  
+  border: none;
+  background-color: var(--secondary-color);
+}
+
+.form_container input::placeholder {
+  color: var(--main-color);
+}

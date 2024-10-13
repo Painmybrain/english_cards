@@ -1,0 +1,12 @@
+@import "variables";
+
+
+.table_row td {
+  padding: 10px;
+  text-align: center;  
+  border-collapse: collapse;
+  border-style: hidden;  
+}
+
+
+

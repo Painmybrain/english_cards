@@ -1,7 +1,9 @@
+import styles from './Header.module.css'
+
 function Header() {
   return (
     <header>
-      <h1>Study English</h1>
+      <h1 className={styles.title}>Study English</h1>
     </header>
   );
 }

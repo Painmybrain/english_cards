@@ -1,0 +1,40 @@
+@import "variables";
+
+.buttons_container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  
+}
+
+.delete_button {
+  border: none;
+  background-color: rgb(240, 158, 158);
+  padding: 10px;
+  font-family: var(--extra-font);
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--main-color);
+  border-radius: 5px;
+  transition: 0.8s;
+}
+
+.edit_button {
+  border: 1px solid rgb(240, 158, 158);
+  background-color: transparent;
+  padding: 10px;
+  font-family: var(--extra-font);
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--main-color);
+  border-radius: 5px;
+  transition: 0.8s;
+}
+
+.delete_button:hover {
+  transform: scale(1.05);
+} 
+
+.edit_button:hover {
+  transform: scale(1.05);
+}

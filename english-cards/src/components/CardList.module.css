@@ -1,0 +1,8 @@
+.card_list_container {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;  
+  max-width: 1440px;
+  gap: 10px;
+  justify-content: center;
+}
