@@ -1,12 +1,26 @@
 @import "variables";
 
 
-.table_row td {
-  padding: 10px;
+
+
+.table_row td{
+  margin: auto;
+  padding: 10px; 
   text-align: center;  
   border-collapse: collapse;
   border-style: hidden;  
 }
 
+.table_row input {
+  padding: 10px;
+  height: 15px;
+  width: 90%;
+  text-align: center;  
+  border: none;
+  background-color: var(--secondary-color);
+}
 
+.table_row input::placeholder {
+  color: var(--main-color);
+}
 
